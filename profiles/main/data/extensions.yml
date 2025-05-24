@@ -1,0 +1,292 @@
+builtin:
+  disabled:
+    - vscode.php-language-features
+    - undefined.cursor-themes
+disabled:
+  - id: cweijan.vscode-mysql-client2
+    uuid: c0fde3ce-39d4-4ea8-89ce-e2a202eeacaf
+  - id: GitHub.copilot
+    uuid: 23c4aeee-f844-43cd-b53e-1113e483f1a6
+  - id: GitHub.copilot-chat
+    uuid: 7ec7d6e6-b89e-4cc5-a59b-d6c4d238246f
+  - id: semanticdiff.semanticdiff
+    uuid: 6787a09c-91f5-46ba-8a8f-5efb54bd57ed
+  - id: vscodevim.vim
+    uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
+enabled:
+  - id: aaron-bond.better-comments
+    uuid: 7a0110bb-231a-4598-aa1b-0769ea46d28b
+  - id: adpyke.vscode-sql-formatter
+    uuid: ac70a31d-d9ab-417b-b259-baf7cd9d6cb0
+  - id: alefragnani.Bookmarks
+    uuid: b689fcc8-d494-4dbf-a228-2c694a578afc
+  - id: alefragnani.project-manager
+    uuid: 1b747f06-3789-4ebd-ac99-f1fe430c3347
+  - id: AnandKothari.petals-pastels
+    uuid: 4c914b62-021b-4348-a942-f8d397c82a2e
+  - id: anysphere.pyright
+    uuid: d990d7f1-60b6-4234-91a7-d146a42bb230
+  - id: AyakoSky.sodagreen-theme
+    uuid: 9045a0a9-2881-49d6-b487-feb9d18380cb
+  - id: be5invis.vscode-custom-css
+    uuid: 1b160753-ae5e-42bb-82ad-d115ce5c10f4
+  - id: bierner.markdown-mermaid
+    uuid: f8d0ffc4-66bb-4a9c-8149-ef8f043691a1
+  - id: biomejs.biome
+    uuid: 2c992d35-3965-4369-856e-fdfbb0af2ce2
+  - id: bmewburn.vscode-intelephense-client
+    uuid: ffda6552-0ad5-431b-a4fa-0905a7e4f3f0
+  - id: bpruitt-goddard.mermaid-markdown-syntax-highlighting
+    uuid: 08792992-bb56-41fb-b5dd-8551bbee0cb6
+  - id: brapifra.phpserver
+    uuid: a8194b6b-5989-4647-a5b8-ac7085201841
+  - id: Catppuccin.catppuccin-vsc
+    uuid: 69264e4d-cd3b-468a-8f2b-e69673c7d864
+  - id: Catppuccin.catppuccin-vsc-icons
+    uuid: 625b9abd-dfac-405b-bf34-e65f46e2f22f
+  - id: ChaitanyaShahare.lazygit
+    uuid: e370d573-0664-4b89-b241-5d3cfeb9a427
+  - id: chrisdicarlo.vscode-switch-git-worktree
+    uuid: 2a769ee1-aa2f-469b-ad6e-5b388413e201
+  - id: christian-kohler.path-intellisense
+    uuid: a41c1549-4053-44d4-bf30-60fc809b4a86
+  - id: codezombiech.gitignore
+    uuid: 3e891cf9-53cb-49a3-8d01-8f0b1f0afb29
+  - id: coolbear.systemd-unit-file
+    uuid: fe20f03a-2abf-470a-ab23-d671ec38ce42
+  - id: dbaeumer.vscode-eslint
+    uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
+  - id: DiemasMichiels.emulate
+    uuid: d14e9a1d-64ce-4c73-8e17-619bc4b8a9c1
+  - id: diff001a.kawaii-theme
+    uuid: 50cdb938-5004-4c38-bc57-b7cdbd7bf427
+  - id: doggy8088.quicktype-refresh
+    uuid: cede8dbb-204d-442f-847b-5903de0006d0
+  - id: donjayamanne.githistory
+    uuid: 5960f38e-0bbe-4644-8f9c-9c8824e82511
+  - id: dsznajder.es7-react-js-snippets
+    uuid: 19804510-b475-4dae-b0f7-6ca08fd1af0c
+  - id: eamodio.gitlens
+    uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
+  - id: EditorConfig.EditorConfig
+    uuid: f60a60a6-95ba-42d4-b41c-3d24c1b89588
+  - id: enkia.tokyo-night
+    uuid: 1cac7443-911e-48b9-8341-49f3880c288a
+  - id: esbenp.prettier-vscode
+    uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
+  - id: formulahendry.auto-close-tag
+    uuid: d3836729-9cc1-42c1-b2af-d50071f57d29
+  - id: formulahendry.auto-rename-tag
+    uuid: 6e440e71-8ed9-4f25-bb78-4b13096b8a03
+  - id: foxundermoon.next-js
+    uuid: d27203d5-48e4-451c-9cad-b6e6bca25f48
+  - id: fwcd.kotlin
+    uuid: c86bc8a9-fd3b-44db-b28a-2d146cb78d3c
+  - id: github.vscode-github-actions
+    uuid: 04f49bfc-8330-4eee-8237-ea938fb755ef
+  - id: GitHub.vscode-pull-request-github
+    uuid: 69ddd764-339a-4ecc-97c1-9c4ece58e36d
+  - id: glenn2223.live-sass
+    uuid: 137c3643-510d-4a1f-a737-793c72e8b411
+  - id: GrapeCity.gc-excelviewer
+    uuid: 8bb12ae3-73f8-40cf-86b7-4bd5729c6238
+  - id: GregorBiswanger.json2ts
+    uuid: 0b0e4305-3ab6-4928-bce6-081b5f146df7
+  - id: Gruntfuggly.todo-tree
+    uuid: 261cac81-cd7b-4555-bb41-0c2d2bcd3e70
+  - id: hediet.vscode-drawio
+    uuid: ea6a6046-2132-421f-a984-664909fcf0b8
+  - id: hogashi.crontab-syntax-highlight
+    uuid: 608f80f3-12af-4601-a960-2e3334c95c3f
+  - id: Horla.horla-light-theme
+    uuid: 7ca0db3f-793d-4820-a122-d2c4ec02e245
+  - id: humao.rest-client
+    uuid: dda49fd5-1f3b-4d25-bf61-4fc41905ede5
+  - id: IBM.output-colorizer
+    uuid: 113b22c8-8125-42ec-8c6b-80c3f5d5fa5f
+  - id: iceworks-team.iceworks-refactor
+    uuid: 4c8d499f-745e-4c81-b333-87f7fcdc4328
+  - id: idleberg.applescript
+    uuid: d57cfcbb-5746-48be-a607-96967331a91c
+  - id: illixion.vscode-vibrancy-continued
+    uuid: da69820f-32f2-49c6-915b-aa8e49455529
+  - id: jakearl.search-editor-apply-changes
+    uuid: a85a8ec7-f543-4625-8da7-d21ac04487a0
+  - id: janisdd.vscode-edit-csv
+    uuid: 72e9b049-d75d-415c-96e1-d6e74f0e3074
+  - id: jock.svg
+    uuid: 4ae6dc82-7981-4f10-bd81-2d72aec37f39
+  - id: joekon.ssmacro
+    uuid: 267f9182-dee6-4302-9232-59cf39dd8ae6
+  - id: jonkwheeler.styled-components-snippets
+    uuid: 1e0f6104-ad31-4640-9fb7-6d7ac7edb90d
+  - id: KacperBiedka.one-candy-dark
+    uuid: 535d5761-10cf-4d79-93ac-d3a34a8916bd
+  - id: koehlma.markdown-math
+    uuid: 1195a91f-228c-4460-8345-2b591da98a4a
+  - id: liviuschera.noctis
+    uuid: d4e2a48f-0b88-4540-92c5-a4ab4dd2c813
+  - id: loiane.ts-extension-pack
+    uuid: c62f9345-3742-4644-bbe5-0ceffc00c775
+  - id: mads-hartmann.bash-ide-vscode
+    uuid: b1b0f283-8246-4e90-832e-a6c409d378d1
+  - id: mammothb.gnuplot
+    uuid: 968481a1-7c2c-49e6-87a9-cfdf5bff0a50
+  - id: manuthebyte.dynamic-icon-theme
+    uuid: 7099aa83-c602-408a-9a67-6c6279504a38
+  - id: marp-team.marp-vscode
+    uuid: a6226409-c077-4199-9efe-5fd4d91a253d
+  - id: mechatroner.rainbow-csv
+    uuid: 3792588c-3d35-442d-91ea-fe6a755e8155
+  - id: mhutchie.git-graph
+    uuid: 438221f8-1107-4ccd-a6fe-f3b7fe0856b7
+  - id: mKincaid.tokyo-night-redux
+    uuid: 1da6afe0-05b0-4865-99ff-a03c4e91ac67
+  - id: mrmlnc.vscode-duplicate
+    uuid: 03944bdc-9bcb-4ac2-b9b3-fdb050dd43e4
+  - id: ms-azuretools.vscode-docker
+    uuid: 0479fc1c-3d67-49f9-b087-fb9069afe48f
+  - id: MS-CEINTL.vscode-language-pack-ja
+    uuid: 077515fe-1509-49c0-9dcc-5511b41682fc
+  - id: ms-python.black-formatter
+    uuid: 859e640c-c157-47da-8699-9080b81c8371
+  - id: ms-python.debugpy
+    uuid: 4bd5d2c9-9d65-401a-b0b2-7498d9f17615
+  - id: ms-python.isort
+    uuid: 4ad0ce32-ff3f-49f0-83b5-93e5dc00cfff
+  - id: ms-python.python
+    uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
+  - id: ms-python.vscode-pylance
+    uuid: 364d2426-116a-433a-a5d8-a5098dc3afbd
+  - id: ms-toolsai.jupyter
+    uuid: 6c2f1801-1e7f-45b2-9b5c-7782f1e076e8
+  - id: ms-toolsai.jupyter-renderers
+    uuid: b15c72f8-d5fe-421a-a4f7-27ed9f6addbf
+  - id: ms-toolsai.vscode-jupyter-cell-tags
+    uuid: ab4fb32a-befb-4102-adf9-1652d0cd6a5e
+  - id: ms-toolsai.vscode-jupyter-slideshow
+    uuid: e153ca70-b543-4865-b4c5-b31d34185948
+  - id: ms-vscode-remote.remote-containers
+    uuid: 93ce222b-5f6f-49b7-9ab1-a0463c6238df
+  - id: ms-vscode-remote.remote-ssh-edit
+    uuid: bfeaf631-bcff-4908-93ed-fda4ef9a0c5c
+  - id: ms-vscode-remote.remote-wsl
+    uuid: f0c5397b-d357-4197-99f0-cb4202f22818
+  - id: ms-vscode-remote.vscode-remote-extensionpack
+    uuid: 23d72dfc-8dd1-4e30-926e-8783b4378f13
+  - id: msjsdiag.vscode-react-native
+    uuid: b35cd5b4-18db-46f9-ba9e-06096c3b22d3
+  - id: mxsdev.typescript-explorer
+    uuid: ae6725df-337b-473d-8033-1b5951364908
+  - id: naumovs.color-highlight
+    uuid: 121396ad-85a1-45ec-9fd1-d95028a847f5
+  - id: neilbrayfield.php-docblocker
+    uuid: ca0094fa-0dc7-4847-ae5d-879442c099ca
+  - id: nmsmith89.incrementor
+    uuid: e88910bc-3865-42a3-b938-11f09767a460
+  - id: oderwat.indent-rainbow
+    uuid: eaa2127d-cb69-4ab9-8505-a60c9ee5f28b
+  - id: openai.openai-chatgpt-adhoc
+    uuid: null
+  - id: pAIrprog.ui-sketcher
+    uuid: 2f353638-d094-4baa-a8bc-cd1ed74b6712
+  - id: peakchen90.open-html-in-browser
+    uuid: e552c70b-32af-4b0b-8f48-5e7e01e688b0
+  - id: PKief.material-icon-theme
+    uuid: 5db78037-f674-459f-a236-db622c427c5b
+  - id: pmneo.tsimporter
+    uuid: 6bc1e3ad-c0e2-46b6-bbad-246c5f59215b
+  - id: pranaygp.vscode-css-peek
+    uuid: 0b8f8d63-11a2-4194-969c-ca7488b3413a
+  - id: Prisma.prisma
+    uuid: 33ce9d6b-41cf-4972-a62b-386f7201981d
+  - id: PulkitGangwar.nextjs-snippets
+    uuid: cf7acc1f-dea3-4456-9d09-ebff1d01806a
+  - id: rbbit.typescript-hero
+    uuid: 38583aca-2ba1-417f-80fc-68ca8d717fb4
+  - id: redhat.java
+    uuid: 198a707e-28af-4e84-8610-6e2f628dd12d
+  - id: redhat.vscode-yaml
+    uuid: 2061917f-f76a-458a-8da9-f162de22b97e
+  - id: ritwickdey.LiveServer
+    uuid: b63c44fd-0457-4696-99e9-dbfdf70d77de
+  - id: rogalmic.bash-debug
+    uuid: f4f0748b-9f86-461e-84f9-73bf2e1f91c2
+  - id: rust-lang.rust-analyzer
+    uuid: 06574cb4-e5dc-4631-8174-a543a4533621
+  - id: ryu1kn.partial-diff
+    uuid: 79afa437-682e-4fa2-a4fd-87844832a1dc
+  - id: saoudrizwan.claude-dev
+    uuid: ad94c633-a9d5-4f78-b85f-c664e7d91a0f
+  - id: sazumiviki.kawaine-theme
+    uuid: 55493751-d311-4639-812b-5f4cb9e72d36
+  - id: seatonjiang.gitmoji-vscode
+    uuid: d7b0c43a-5aaa-4181-9196-293551f7b37a
+  - id: shakram02.bash-beautify
+    uuid: 3cd12c20-0143-473f-b7f3-0d5f15cb7249
+  - id: shardulm94.trailing-spaces
+    uuid: 6ad45f5a-09ec-44e5-b363-867ddc1ec674
+  - id: shd101wyy.markdown-preview-enhanced
+    uuid: 3b1db1fc-c7f7-4bd6-9fa4-b499dfa99a8a
+  - id: soft-aesthetic.soft-era-theme
+    uuid: f2ea7ed8-e7af-4287-a7a2-0510a1136af4
+  - id: steoates.autoimport
+    uuid: 70378119-1d85-4935-9733-0298c7a369a2
+  - id: streetsidesoftware.code-spell-checker
+    uuid: f6dbd813-b0a0-42c1-90ea-10dde9d925a7
+  - id: stringham.move-ts
+    uuid: 9f47c6a1-da06-41ce-ba18-5e281296aa0a
+  - id: styled-components.vscode-styled-components
+    uuid: 22a740c5-ec07-4bf0-a58f-1a38aabea310
+  - id: subframe7536.custom-ui-style
+    uuid: 5d260afc-8d75-4731-a881-66951c630816
+  - id: sukumo28.wav-preview
+    uuid: 24b1a1f1-01fe-4c8f-ae63-988f9ca5a68f
+  - id: tamasfe.even-better-toml
+    uuid: b2215d5f-675e-4a2b-b6ac-1ca737518b78
+  - id: tauri-apps.tauri-vscode
+    uuid: 53763e89-ec31-4d0c-b220-f714761180e5
+  - id: TheHelpfulTipper.pinkpanda-dark-theme
+    uuid: a864a66f-c6b1-48db-88f6-22b1048359af
+  - id: toba.vsfire
+    uuid: 2b2535e4-d0cd-4b0a-9a18-5db6d6fb0c31
+  - id: tomoki1207.pdf
+    uuid: 4386e6f6-ec10-4463-9d23-c24278718947
+  - id: TomRijndorp.find-it-faster
+    uuid: d5eafbee-176a-421a-b74d-fbc51bd86a21
+  - id: Tyriar.luna-paint
+    uuid: 4358224d-f1ef-4635-a14b-a2f784a06e3d
+  - id: usernamehw.find-jump
+    uuid: f3c802e6-0367-4752-b5de-b4c3c06e731f
+  - id: vincaslt.highlight-matching-tag
+    uuid: aae00486-7e92-42b3-91b0-2b419e4f3875
+  - id: VisualStudioExptTeam.intellicode-api-usage-examples
+    uuid: 9fa2a00e-3bfa-4c2a-abc4-a865bb2b5cf3
+  - id: VisualStudioExptTeam.vscodeintellicode
+    uuid: 876e8f93-74d0-4f4f-91b7-34a09f19f444
+  - id: vscjava.vscode-gradle
+    uuid: a226f06e-9b5e-493b-b92a-553d3572f969
+  - id: vscjava.vscode-java-debug
+    uuid: 61fcd0cf-64d7-4836-8d6b-d55f4fb83281
+  - id: vscjava.vscode-java-dependency
+    uuid: 7865e561-1c83-410e-9b99-aabada597a7e
+  - id: vscjava.vscode-java-pack
+    uuid: 96f11e1f-1a46-4592-b084-f025b2c2a81f
+  - id: vscjava.vscode-java-test
+    uuid: 67c06b0d-1891-42ca-b2a8-113e79bff069
+  - id: vscjava.vscode-maven
+    uuid: b0f06c6b-24fb-4d7b-bd79-bc5e2fa17312
+  - id: VSpaceCode.whichkey
+    uuid: 47ddeb9c-b4bb-4594-906b-412886e20e47
+  - id: WallabyJs.quokka-vscode
+    uuid: aae0701b-111f-49c1-9000-abd37a442f28
+  - id: xabikos.JavaScriptSnippets
+    uuid: a2cec723-5349-460d-9de9-0fd1f8d3456f
+  - id: xdebug.php-debug
+    uuid: 044b4b31-2969-4af3-895d-855433b8b46d
+  - id: yzhang.markdown-all-in-one
+    uuid: 98790d67-10fa-497c-9113-f6c7489207b2
+  - id: Zignd.html-css-class-completion
+    uuid: 7b71fc1b-190d-4f7d-95d1-93e422649b0a
+  - id: zokugun.cron-tasks
+    uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
