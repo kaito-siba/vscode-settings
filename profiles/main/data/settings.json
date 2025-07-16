@@ -198,18 +198,6 @@
       "after": ["g", "b"]
     },
     {
-      "before": ["<leader>", "f", "f"],
-      "commands": ["workbench.action.quickOpen"]
-    },
-    {
-      "before": ["<leader>", "f", "g"],
-      "commands": ["workbench.action.findInFiles"]
-    },
-    {
-      "before": ["<leader>", "g"],
-      "commands": ["lazygit.openLazygit"]
-    },
-    {
       "before": ["<CR>"],
       "commands": ["editor.action.smartSelect.expand"]
     },
@@ -228,7 +216,7 @@
     },
     {
       "before": ["s"],
-      "commands": [{ "command": "findJump.activate" }]
+      "commands": [{ "command": "lumpat.jumpMulti" }]
     },
     {
       "before": ["<leader>", "x"],
@@ -238,14 +226,52 @@
       "before": ["<leader>", "d"],
       "commands": [{ "command": "workbench.actions.view.toggleProblems" }]
     },
+    // ファイルツリーへの移動
     {
-      "before": ["<leader>", "e"],
-      "commands": [
-        {
-          "command": "workbench.view.explorer"
-        }
+      "before": ["<Leader>", "o"],
+      "commands": ["workbench.action.focusSideBar"]
+    },
+    // ファイルツリーの開閉
+    {
+      "before": ["<Leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"],
+      "when": ["editorFocus && vim.mode == 'Normal'"]
+    },
+    // ファイル検索
+    {
+      "before": ["<Leader>", "f", "f"],
+      "commands": ["multiCommand.findFiles"],
+      "when": ["editorFocus && vim.mode == 'Normal'"]
+    },
+    // 全体検索
+    {
+      "before": ["<Leader>", "f", "g"],
+      "commands": ["multiCommand.findWithinFiles"],
+      "when": ["editorFocus && vim.mode == 'Normal'"]
+    },
+    // git
+    {
+      "before": ["<Leader>", "g", "l"],
+      "commands": ["gitlens.showQuickFileHistory"],
+      "when": ["editorFocus && vim.mode == 'Normal'"]
+    },
+    {
+      "before": ["<Leader>", "g", "g"],
+      "commands": ["lazygit-vscode.toggle"],
+      "when": [
+        "editorFocus && !editorTextFocus && vim.mode == 'Normal'",
+        "workbench.action.focusActiveEditorGroup"
       ]
-    }
+    },
+    // split
+    {
+      "before": ["<Leader>", "s"],
+      "commands": ["workbench.action.splitEditorRight"]
+    },
+    {
+      "before": ["<Leader>", "v"],
+      "commands": ["workbench.action.splitEditorDown"]
+    },
   ],
   // jk で insertを抜ける jjは邪道
   "vim.insertModeKeyBindings": [
@@ -291,7 +317,12 @@
     {
       "before": ["<C-x>"],
       "commands": [{ "command": "incrementor.decrementByOne" }]
-    }
+    },
+    // toggle terminal
+    {
+      "before": ["<Leader>", "t"],
+      "commands": [{ "command": "workbench.action.terminal.toggleTerminal" }]
+    },
   ],
   // minimarp 非表示(スプリットしたとき邪魔)
   "editor.minimap.renderCharacters": false,
@@ -402,7 +433,6 @@
   "workbench.activityBar.location": "hidden",
   "editor.folding": false, // to be tight of the line number column
   "editor.semanticHighlighting.enabled": true,
-  "find-it-faster.general.showMaximizedTerminal": true,
   "workbench.panel.showLabels": false,
   "chat.editor.fontFamily": "'UDEV Gothic 35JPDOC', 'HackGenNerd Console'",
   "semanticdiff.defaultDiffViewer": true,
@@ -416,5 +446,99 @@
   "biome.lsp.bin": null,
   "biome.suggestInstallingGlobally": false,
   "cursor.cpp.enablePartialAccepts": true,
-  "workbench.editor.showTabs": "none"
+  "workbench.editor.showTabs": "none",
+  "github.copilot.nextEditSuggestions.enabled": true,
+    "find-it-faster.general.showMaximizedTerminal": false,
+  "multiCommand.commands": [
+    {
+      "command": "multiCommand.findFiles",
+      "interval": 220,
+      "sequence": [
+        "workbench.action.toggleMaximizedPanel",
+        "find-it-faster.findFiles"
+      ]
+    },
+    {
+      "command": "multiCommand.findWithinFiles",
+      "interval": 220,
+      "sequence": [
+        "workbench.action.toggleMaximizedPanel",
+        "find-it-faster.findWithinFiles"
+      ]
+    }
+  ],
+  "custom-ui-style.electron": {
+    "frame": true,
+  },
+  "custom-ui-style.background.url": "file:///Users/k-nanchi/Pictures/Floorp_wallpaper/wall_9.jpeg",
+  "custom-ui-style.background.opacity": 0.92,
+  "custom-ui-style.stylesheet": {
+    ".quick-input-widget": {
+      "position": "absolute !important",
+      "top": "200px !important",
+      "left": "50%",
+      "border-radius": "10px",
+      "border": "1px solid var(--vscode-textSeparator-foreground) !important",
+      "box-shadow": "0 0 60px 0 rgba(0,0,0,0.2) !important"
+    },
+    // left title bar (controls)
+    ".titlebar-left": {
+      "max-width": "70px !important"
+    },
+    // center title bar
+    ".titlebar-center": {
+      "margin": "0 !important"
+    },
+    // arrow buttons
+    ".action-item.menu-entry": {
+      "display": "none !important"
+    },
+    // whole title bar command center container
+    ".action-item.command-center-center": {
+      "background-color": "transparent !important",
+      "border": "none !important",
+      "width": "fit-content !important"
+    },
+    // field
+    ".quick-input-header": {
+      "padding": "0 !important"
+    },
+    // input element container
+    ".quick-input-header > .quick-input-and-message .monaco-inputbox": {
+      "border-radius": "10px 10px 0 0 !important"
+    },
+    // actual input element
+    ".quick-input-header > .quick-input-and-message > .quick-input-filter > .quick-input-box input": {
+      "padding": "8px 10px !important"
+    },
+    // list of results
+    ".quick-input-list > .monaco-list > .monaco-scrollable-element": {
+      "padding": "2px !important"
+    },
+    // status bar set height
+    "div:has(> .statusbar)": {
+      "height": "25px !important",
+      "top": "auto !important",
+      "bottom": "0 !important"
+    },
+    ".statusbar": {
+      "height": "25px !important"
+    },
+    // hides search icon
+    ".codicon.codicon-search.search-icon": {
+      "display": "none !important"
+    },
+    // empty editor background
+    ".editor-group-container.empty.active": {
+      "background-color": "var(--vscode-statusBar-background)"
+    },
+    "div:has(> .tabs-and-actions-container.tabs-border-bottom.empty)": {
+      "background-color": "var(--vscode-statusBar-background) !important"
+    }
+  },
+  "animations.Install-Method": "Custom UI Style",
+  "custom-ui-style.external.imports": [
+    "file:///Users/k-nanchi/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+  ],
+  "animations.CursorAnimation": true
 }

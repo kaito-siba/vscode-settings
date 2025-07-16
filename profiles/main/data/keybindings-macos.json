@@ -122,5 +122,42 @@
   {
     "key": "ctrl+tab",
     "command": "workbench.action.nextEditor"
-  }
+  },
+  {
+    "key": "cmd+enter",
+    "command": "workbench.action.chat.submit"
+  },
+ //----------------------------------------------------------
+  // 何も開いていない時の設定
+  //----------------------------------------------------------
+  // ファイル検索
+  {
+    "key": "space f f",
+    "command": "multiCommand.findFiles",
+    "when": "!editorFocus && !terminalFocus && !inputFocus"
+  },
+  // 全体検索
+  {
+    "key": "space f g",
+    "command": "multiCommand.findWithinFiles",
+    "when": "!editorFocus && !terminalFocus && !inputFocus"
+  },
+  // サイドバーを表示
+  {
+    "key": "space e",
+    "command": "workbench.action.focusSideBar",
+    "when": "!editorFocus && !terminalFocus && !inputFocus"
+  },
+  // サイドバーへのフォーカス
+  {
+    "key": "space o",
+    "command": "workbench.action.focusSideBar",
+    "when": "!editorFocus && !terminalFocus && !inputFocus"
+  },
+  // Lazygitの起動
+  {
+    "key": "space g",
+    "command": "lazygit-vscode.toggle",
+    "when": "!editorFocus && !terminalFocus && !inputFocus"
+  },
 ]
