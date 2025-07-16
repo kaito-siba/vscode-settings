@@ -7,7 +7,7 @@
   "editor.fontFamily": "'UDEV Gothic 35JPDOC', 'HackGenNerd Console'",
   "editor.tabSize": 2,
   "editor.renderWhitespace": "all",
-  "workbench.iconTheme": "catppuccin-latte",
+  "workbench.iconTheme": "catppuccin-mocha",
   "icontheme.lightIconTheme": "catppuccin-latte",
   "icontheme.darkIconTheme": "catppuccin-mocha",
   "editor.minimap.enabled": false,
@@ -489,10 +489,10 @@
     ".titlebar-center": {
       "margin": "0 !important"
     },
-    // arrow buttons
-    ".action-item.menu-entry": {
-      "display": "none !important"
-    },
+    // // arrow buttons
+    // ".action-item.menu-entry": {
+    //   "display": "none !important"
+    // },
     // whole title bar command center container
     ".action-item.command-center-center": {
       "background-color": "transparent !important",
@@ -540,5 +540,14 @@
   "custom-ui-style.external.imports": [
     "file:///Users/k-nanchi/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
   ],
-  "animations.CursorAnimation": true
+  "animations.CursorAnimation": true,
+  "chat.mcp.serverSampling": {
+    "Code のグローバル: github": {
+      "allowedModels": [
+        "github.copilot-chat/gpt-4.1",
+        "github.copilot-chat/claude-sonnet-4",
+        "github.copilot-chat/gemini-2.5-pro"
+      ]
+    }
+  }
 }
