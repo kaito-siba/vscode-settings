@@ -15,24 +15,16 @@ enabled:
     uuid: 4c914b62-021b-4348-a942-f8d397c82a2e
   - id: antfu.slidev
     uuid: 1396f3b6-119e-4436-a767-30a73c5a4a4f
-  - id: atian25.copy-syntax
-    uuid: 004d66f3-f800-4c03-a59a-ef684926e4a2
   - id: AyakoSky.sodagreen-theme
     uuid: 9045a0a9-2881-49d6-b487-feb9d18380cb
-  - id: be5invis.vscode-custom-css
-    uuid: 1b160753-ae5e-42bb-82ad-d115ce5c10f4
   - id: bierner.markdown-mermaid
     uuid: f8d0ffc4-66bb-4a9c-8149-ef8f043691a1
   - id: biomejs.biome
     uuid: 2c992d35-3965-4369-856e-fdfbb0af2ce2
-  - id: bmewburn.vscode-intelephense-client
-    uuid: ffda6552-0ad5-431b-a4fa-0905a7e4f3f0
   - id: bpruitt-goddard.mermaid-markdown-syntax-highlighting
     uuid: 08792992-bb56-41fb-b5dd-8551bbee0cb6
   - id: BrandonKirbyson.vscode-animations
     uuid: 7d7c0d21-6653-4c11-9310-75b7180bbf81
-  - id: brapifra.phpserver
-    uuid: a8194b6b-5989-4647-a5b8-ac7085201841
   - id: Cameron.vscode-pytest
     uuid: 88ee4e73-798e-4275-b583-6ee3a3b4e97e
   - id: Catppuccin.catppuccin-vsc
@@ -51,48 +43,32 @@ enabled:
     uuid: 3e891cf9-53cb-49a3-8d01-8f0b1f0afb29
   - id: coolbear.systemd-unit-file
     uuid: fe20f03a-2abf-470a-ab23-d671ec38ce42
-  - id: cweijan.dbclient-jdbc
-    uuid: 1fe0d785-8db6-44ef-8113-cb0d98a88473
-  - id: cweijan.vscode-mysql-client2
-    uuid: c0fde3ce-39d4-4ea8-89ce-e2a202eeacaf
   - id: dbaeumer.vscode-eslint
     uuid: 583b2b34-2c1e-4634-8c0b-0b82e283ea3a
   - id: denoland.vscode-deno
     uuid: 91881318-cfd0-4905-adb7-f4e431ca1ead
   - id: DEVSENSE.composer-php-vscode
     uuid: eed2a934-7bb6-4a5b-a29d-353077efd839
-  - id: DEVSENSE.intelli-php-vscode
-    uuid: f83b9c6c-24dd-435c-a088-daff1769b0b8
   - id: DEVSENSE.phptools-vscode
     uuid: 93916db4-e944-4c74-b68e-47f2834e9e93
-  - id: DEVSENSE.profiler-php-vscode
-    uuid: 6e4e2904-96c2-4c5c-8b78-23da062f2f9e
   - id: DiemasMichiels.emulate
     uuid: d14e9a1d-64ce-4c73-8e17-619bc4b8a9c1
   - id: diff001a.kawaii-theme
     uuid: 50cdb938-5004-4c38-bc57-b7cdbd7bf427
   - id: doggy8088.quicktype-refresh
     uuid: cede8dbb-204d-442f-847b-5903de0006d0
-  - id: donjayamanne.githistory
-    uuid: 5960f38e-0bbe-4644-8f9c-9c8824e82511
   - id: dsznajder.es7-react-js-snippets
     uuid: 19804510-b475-4dae-b0f7-6ca08fd1af0c
   - id: eamodio.gitlens
     uuid: 4de763bd-505d-4978-9575-2b7696ecf94e
   - id: EditorConfig.EditorConfig
     uuid: f60a60a6-95ba-42d4-b41c-3d24c1b89588
-  - id: enhancedjax.vscode-ayu-zed
-    uuid: aa1167bb-2a5b-4a18-b1bd-02f0b8cedd1c
-  - id: enkia.tokyo-night
-    uuid: 1cac7443-911e-48b9-8341-49f3880c288a
   - id: esbenp.prettier-vscode
     uuid: 96fa4707-6983-4489-b7c5-d5ffdfdcce90
   - id: formulahendry.auto-close-tag
     uuid: d3836729-9cc1-42c1-b2af-d50071f57d29
   - id: formulahendry.auto-rename-tag
     uuid: 6e440e71-8ed9-4f25-bb78-4b13096b8a03
-  - id: foxundermoon.next-js
-    uuid: d27203d5-48e4-451c-9cad-b6e6bca25f48
   - id: fwcd.kotlin
     uuid: c86bc8a9-fd3b-44db-b28a-2d146cb78d3c
   - id: GitHub.copilot
@@ -115,16 +91,12 @@ enabled:
     uuid: ea6a6046-2132-421f-a984-664909fcf0b8
   - id: hogashi.crontab-syntax-highlight
     uuid: 608f80f3-12af-4601-a960-2e3334c95c3f
-  - id: HookyQR.beautify
-    uuid: 697255a9-3f36-44c8-b084-d3b91edfb23a
   - id: Horla.horla-light-theme
     uuid: 7ca0db3f-793d-4820-a122-d2c4ec02e245
   - id: humao.rest-client
     uuid: dda49fd5-1f3b-4d25-bf61-4fc41905ede5
   - id: IBM.output-colorizer
     uuid: 113b22c8-8125-42ec-8c6b-80c3f5d5fa5f
-  - id: iceworks-team.iceworks-refactor
-    uuid: 4c8d499f-745e-4c81-b333-87f7fcdc4328
   - id: idleberg.applescript
     uuid: d57cfcbb-5746-48be-a607-96967331a91c
   - id: jakearl.search-editor-apply-changes
@@ -153,8 +125,6 @@ enabled:
     uuid: c62f9345-3742-4644-bbe5-0ceffc00c775
   - id: mads-hartmann.bash-ide-vscode
     uuid: b1b0f283-8246-4e90-832e-a6c409d378d1
-  - id: mammothb.gnuplot
-    uuid: 968481a1-7c2c-49e6-87a9-cfdf5bff0a50
   - id: manuthebyte.dynamic-icon-theme
     uuid: 7099aa83-c602-408a-9a67-6c6279504a38
   - id: marp-team.marp-vscode
@@ -165,8 +135,6 @@ enabled:
     uuid: 3792588c-3d35-442d-91ea-fe6a755e8155
   - id: mhutchie.git-graph
     uuid: 438221f8-1107-4ccd-a6fe-f3b7fe0856b7
-  - id: mKincaid.tokyo-night-redux
-    uuid: 1da6afe0-05b0-4865-99ff-a03c4e91ac67
   - id: mrmlnc.vscode-duplicate
     uuid: 03944bdc-9bcb-4ac2-b9b3-fdb050dd43e4
   - id: ms-azuretools.vscode-containers
@@ -183,8 +151,6 @@ enabled:
     uuid: 4bd5d2c9-9d65-401a-b0b2-7498d9f17615
   - id: ms-python.flake8
     uuid: 856a00d7-c18a-406c-8461-d4914a12e193
-  - id: ms-python.isort
-    uuid: 4ad0ce32-ff3f-49f0-83b5-93e5dc00cfff
   - id: ms-python.python
     uuid: f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5
   - id: ms-python.vscode-pylance
@@ -213,8 +179,6 @@ enabled:
     uuid: 11858313-52cc-4e57-b3e4-d7b65281e34b
   - id: ms-vscode.remote-server
     uuid: 105c0b3c-07a9-4156-a4fc-4141040eb07e
-  - id: mshr-h.veriloghdl
-    uuid: feb7e3b5-7d35-4f95-a3d2-61eeaa12efa5
   - id: msjsdiag.vscode-react-native
     uuid: b35cd5b4-18db-46f9-ba9e-06096c3b22d3
   - id: mxsdev.typescript-explorer
@@ -247,12 +211,8 @@ enabled:
     uuid: 33ce9d6b-41cf-4972-a62b-386f7201981d
   - id: PulkitGangwar.nextjs-snippets
     uuid: cf7acc1f-dea3-4456-9d09-ebff1d01806a
-  - id: rbbit.typescript-hero
-    uuid: 38583aca-2ba1-417f-80fc-68ca8d717fb4
   - id: redhat.java
     uuid: 198a707e-28af-4e84-8610-6e2f628dd12d
-  - id: redhat.vscode-commons
-    uuid: 2f0eaac2-070b-4dc7-9b23-8dd4c970c11c
   - id: redhat.vscode-yaml
     uuid: 2061917f-f76a-458a-8da9-f162de22b97e
   - id: ritwickdey.LiveServer
@@ -263,16 +223,12 @@ enabled:
     uuid: 79afa437-682e-4fa2-a4fd-87844832a1dc
   - id: ryuta46.multi-command
     uuid: a92437f6-75af-47b2-b3e0-99764308b4be
-  - id: samverschueren.linter-xo
-    uuid: fc140617-fb59-426a-87d2-e810904d10cf
   - id: sazumiviki.kawaine-theme
     uuid: 55493751-d311-4639-812b-5f4cb9e72d36
   - id: seatonjiang.gitmoji-vscode
     uuid: d7b0c43a-5aaa-4181-9196-293551f7b37a
   - id: shakram02.bash-beautify
     uuid: 3cd12c20-0143-473f-b7f3-0d5f15cb7249
-  - id: shalldie.background
-    uuid: dee8df91-b82e-4d4c-a99a-872360b1d015
   - id: shardulm94.trailing-spaces
     uuid: 6ad45f5a-09ec-44e5-b363-867ddc1ec674
   - id: shd101wyy.markdown-preview-enhanced
@@ -295,12 +251,8 @@ enabled:
     uuid: b2215d5f-675e-4a2b-b6ac-1ca737518b78
   - id: tauri-apps.tauri-vscode
     uuid: 53763e89-ec31-4d0c-b220-f714761180e5
-  - id: teabyii.ayu
-    uuid: 5178733e-4b02-4829-95c5-1ce970847c23
   - id: TheHelpfulTipper.pinkpanda-dark-theme
     uuid: a864a66f-c6b1-48db-88f6-22b1048359af
-  - id: tht13.html-preview-vscode
-    uuid: 76fbde36-77d4-4688-b1f8-202727442961
   - id: toba.vsfire
     uuid: 2b2535e4-d0cd-4b0a-9a18-5db6d6fb0c31
   - id: tomoki1207.pdf
@@ -333,21 +285,11 @@ enabled:
     uuid: d96e79c6-8b25-4be3-8545-0e0ecefcae03
   - id: VSpaceCode.whichkey
     uuid: 47ddeb9c-b4bb-4594-906b-412886e20e47
-  - id: WallabyJs.quokka-vscode
-    uuid: aae0701b-111f-49c1-9000-abd37a442f28
-  - id: wix.vscode-import-cost
-    uuid: c46b0018-f317-4b6c-a785-d2039b27338f
   - id: xabikos.JavaScriptSnippets
     uuid: a2cec723-5349-460d-9de9-0fd1f8d3456f
-  - id: xdebug.php-debug
-    uuid: 044b4b31-2969-4af3-895d-855433b8b46d
-  - id: xdebug.php-pack
-    uuid: 1a9300c9-36a6-44d1-9d09-ada3641b8727
   - id: yzhang.markdown-all-in-one
     uuid: 98790d67-10fa-497c-9113-f6c7489207b2
   - id: Zignd.html-css-class-completion
     uuid: 7b71fc1b-190d-4f7d-95d1-93e422649b0a
-  - id: zobo.php-intellisense
-    uuid: 3eddb68d-a5dd-43fb-be03-6f508d98fe97
   - id: zokugun.cron-tasks
     uuid: b7bbbbd5-7a39-4312-87aa-ef6a41de67fb
